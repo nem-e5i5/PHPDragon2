@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHPDragon2", "PHPDragon2\PHPDragon2.phpproj", "{D6480C6D-52A5-423A-9ECB-D72262B19036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6480C6D-52A5-423A-9ECB-D72262B19036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6480C6D-52A5-423A-9ECB-D72262B19036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6480C6D-52A5-423A-9ECB-D72262B19036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6480C6D-52A5-423A-9ECB-D72262B19036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

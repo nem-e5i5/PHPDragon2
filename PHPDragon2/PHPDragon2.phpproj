@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPDragon2</Name>
+    <ProjectGuid>d6480c6d-52a5-423a-9ecb-d72262b19036</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PHPDragon2</RootNamespace>
+    <!-- important to be opened by PHP Tools, when also Phalanger Tools are installed -->
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>PHPDragon2</AssemblyName>
+    <IISProjectUrl>http://localhost:38831/</IISProjectUrl>
+    <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+    <Server>PHPDev</Server>
+    <PHPDevAutoPort>True</PHPDevAutoPort>
+    <PHPDevPort>80</PHPDevPort>
+    <CustomServerUrl>http://localhost/</CustomServerUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BNFTranslation.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PHPDragon2.php">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENCE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LICENCE.en">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PHPDragon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PHPDragon2.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
